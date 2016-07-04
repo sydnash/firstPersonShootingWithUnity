@@ -63,10 +63,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FPSInput.cs" />
-    <Compile Include="Assets\HelloWorld.cs" />
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\Spin.cs" />
+    <Compile Include="Assets\ch1-4\script\BackAndForth.cs" />
+    <Compile Include="Assets\ch1-4\script\FPSInput.cs" />
+    <Compile Include="Assets\ch1-4\script\Fireball.cs" />
+    <Compile Include="Assets\ch1-4\script\HelloWorld.cs" />
+    <Compile Include="Assets\ch1-4\script\MouseLook.cs" />
+    <Compile Include="Assets\ch1-4\script\PlayerCharacter.cs" />
+    <Compile Include="Assets\ch1-4\script\RayShooter.cs" />
+    <Compile Include="Assets\ch1-4\script\ReactiveTarget.cs" />
+    <Compile Include="Assets\ch1-4\script\SceneController.cs" />
+    <Compile Include="Assets\ch1-4\script\Spin.cs" />
+    <Compile Include="Assets\ch1-4\script\TestTouch.cs" />
+    <Compile Include="Assets\ch1-4\script\WanderingAI.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

@@ -10,7 +10,7 @@ public class FPSInput : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         m_con = GetComponent<CharacterController>();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

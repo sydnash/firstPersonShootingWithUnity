@@ -18,7 +18,7 @@ public class MouseLook : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Rigidbody body = GetComponent<Rigidbody>();
-        if (body)
+        if (body != null)
         {
             body.freezeRotation = true;
         }
